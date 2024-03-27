@@ -1,11 +1,11 @@
 import math
 
 # print the welcome message 
-welcome_message = '''
+user_welcome_message = '''
 investment - to calculate the amount of interest you'll earn on your investment
 bond - to calculate the amount you'll have to pay on a home loan
 '''
-print(welcome_message)
+print(user_welcome_message)
 
 # request input of which calculation the user would like
 while (True):
