@@ -7,7 +7,7 @@ bond - to calculate the amount you'll have to pay on a home loan
 '''
 print(welcome_message)
 
-# request which calculation the user would like
+# request input of which calculation the user would like
 while (True):
     calculation = input("Enter either 'investment' or 'bond' from the menu above to proceed: ")
     # ensuring the input is not case-sensitive
@@ -47,7 +47,7 @@ while (True):
                 continue     
             break
 
-        # asking user for number of years investing
+        # request input from user for number of years investing
         while (True): 
             num_years_str = input("For how many years do you want to invest? ")
             
@@ -61,7 +61,7 @@ while (True):
                 continue     
             break
 
-        # asking what type of interest the user wants - simple or compound
+        # request input of what type of interest the user wants - simple or compound
         while (True): 
             interest = input("Do you want your interest to be simple or compound? ")
             # ensuring the input is not case-sensitive
@@ -92,7 +92,7 @@ while (True):
     # if 'bond' is entered
     elif (lowercase_calculation == "bond"):
 
-        # asking user to enter the value of their house
+        # request input from user to enter the value of their house
         while (True): 
             house_value_str = input("What is the value of your house? £")
             
@@ -106,7 +106,7 @@ while (True):
                 continue     
             break
 
-        # asking user to enter the interest rate
+        # request input from user to enter the interest rate
         while (True): 
             interest_rate_str = input("What is the interest rate? ")
             
@@ -126,7 +126,7 @@ while (True):
                 continue     
             break
 
-        # asking user to enter over how many months they would like to spread the repayments
+        # request input from user to enter over how many months they would like to spread the repayments
         while (True): 
             num_months_str = input("Over how many months do you want to repay? ")
             
